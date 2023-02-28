@@ -36,7 +36,7 @@ function preload(){
    restartImg = loadImage("restart.png")
   gameOverImg = loadImage("gameOver.png")
   
-  jumpSound = loadSound("jump.mp3")
+  jumpSound = //  adicione o carregamento do som ("jump.mp3")
 
   dieSound = loadSound("die.mp3")
   checkPointSound = loadSound("checkPoint.mp3")
@@ -105,7 +105,7 @@ function draw() {
     //pular quando a tecla espaço for pressionada
     if(keyDown("space")&& trex.y >= 100) {
         trex.velocityY = -12;
-        jumpSound.play();
+        jumpSound.// adicione o método que faz o  som tocar ;
     }
     
     //adicionar gravidade
